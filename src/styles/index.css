@@ -1,0 +1,98 @@
+/* GOOGLE FONT IMPORT [ QUICKSAND 300 - 700 ] */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+/* GLOBAL DEFAULTS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Quicksand", Arial, sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	color: #fff;
+	background-color: #151515;
+	overflow-x: clip;
+}
+
+#root {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+h1 {
+	width: 100%;
+	margin: 0.5rem 0;
+	text-align: center;
+}
+
+h2,
+h3 {
+	font-weight: 600;
+}
+
+p {
+	width: 50%;
+}
+
+/* SCOREBOARD */
+.scoreboard {
+	width: 30%;
+	text-align: center;
+}
+
+/* GAME OVER */
+.game-over {
+	width: 100%;
+	margin: 0.5rem 0;
+	text-align: center;
+}
+
+/* POKEMON LIST */
+.pokemon-list {
+	max-width: 900px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.pokemon {
+	cursor: pointer;
+	width: 27%;
+	margin: 0.5rem 0;
+	text-transform: capitalize;
+	text-align: center;
+	background-color: #274976;
+	border: 2px solid #ffffff70;
+	border-radius: 0.5rem;
+	aspect-ratio: 1/0.8;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: all 0.25s ease;
+}
+
+.pokemon img {
+	transition: all 0.5s ease;
+}
+
+.pokemon h4 {
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-shadow: 0 0 0.25rem #000;
+}
+
+.pokemon:hover {
+	background-color: #353535;
+	box-shadow: 0 0 0.25rem #fff;
+	scale: 1.1;
+}
+
+.pokemon:hover img {
+	scale: 1.5;
+}
