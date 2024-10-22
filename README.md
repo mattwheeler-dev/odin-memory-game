@@ -8,3 +8,5 @@
 <p>Choose one pokemon at a time, you lose if you choose one you've already chosen! You win if you get all 9!</p>
 
 <p>Chose to work with Vite again for this one, and hosting is done with Google Firebase.</p>
+
+<a href="https://mattwheeler-dev.github.io/odin-memory-game/" target="_blank">Try it out here</a>
